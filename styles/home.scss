@@ -1,3 +1,175 @@
 .home {
-  color: white;
+	padding-top: 60px;
 }
+
+.logo {
+	height: 50px;
+	width: 160px;
+	border-right: .25px solid black;
+}
+
+.navbar-default {
+	background-color: purple;
+	border: none;
+
+	.navbar-default__item {
+		text-decoration: none;
+		font-size: 17px;
+		color: white !important;
+	}
+
+	.navbar-default__item2 {
+		text-decoration: none;
+		font-size: 12px;
+		color: white !important;
+	}
+
+	.navbar-default__last {
+		border-right: .25px solid black;
+	}
+
+	.navbar-default__first {
+		border-left: .25px solid black;
+	}
+}
+
+.notifs {
+  color: gray;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.search {
+	padding-top: 30px;
+	text-align: center;
+	background-color: white;
+	color: black;
+
+	.search__type {
+		font-size: 12px;
+		margin-bottom: 80px;
+	}
+
+	.search__where {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+
+	.search__label {
+		font-size: 16px;
+		font-decoration: none;
+		font-weight: normal;
+		text-align: right;
+	}
+
+	.search__button {
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+}
+
+.deals {
+	background-color: #ededed;
+	color: gray;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	border-bottom: .25px solid white;
+
+	.deals__image {
+		height: 150px;
+		width: 150px;
+	}
+
+	.deals__header {
+		color: purple;
+		font-weight: normal;
+	}
+}
+
+.information {
+	padding-top: 30px;
+	background-color: #ededed;
+	color: gray;
+	padding-bottom: 50px;
+	border-bottom: .25px solid white;
+
+	.information__header {
+		color: purple;
+		font-weight: normal;
+		font-size: 18px;
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+
+	.information__image {
+		height: 60px;
+		width: 60px;
+		margin-bottom: 20px;
+	}
+
+	.information__description {
+		font-size: 11px;
+	}
+
+	.information__border {
+		border-right: .25px solid white;
+	}
+
+	.information__button {
+		margin-top: 30px;
+	}
+}
+
+.news {
+	padding-top: 30px;
+	background-color: #ededed;
+	padding-bottom: 50px;
+	border-bottom: .25px solid white;
+
+	.news__header {
+		color: purple;
+		font-weight: normal;
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+
+	.news__description {
+		font-size: 11px;
+		color: gray;
+	}
+
+	.news__more {
+		text-decoration: underline;
+		font-weight: bold;
+		color: black;
+	}
+
+	.news__button {
+		margin-top: 20px;
+	}
+
+	.news__border {
+		border-right: .25px solid white;
+	}
+}
+
+.links {
+	padding-top: 30px;
+	background-color: #ededed;
+	padding-bottom: 60px;
+	font-size: 11px;
+	line-height: 2;
+
+	.links__link {
+		color: gray;
+	}
+}
+
+.purple {
+	background-color: purple;
+}
+
+
+
+
+
