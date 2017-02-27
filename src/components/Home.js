@@ -9,23 +9,30 @@ class Home extends Component {
         <nav className="navbar navbar-default navbar-fixed-top">
           <div className="container-fluid">
             <a className="navbar-left" href=""><img className="logo navbar__item" src="images/logo.png" alt="logo" /></a>
-            <ul className="nav navbar-nav">
-              <li><a href="" className="navbar-default__item">BOOK</a></li>
-              <li><a href="" className="navbar-default__item">CHECK IN</a></li>
-              <li><a href="" className="navbar-default__item navbar-default__last">MANAGE</a></li>
-            </ul>
-            <ul className="nav navbar-nav">
-              <li><a href="" className="navbar-default__item2">Deals</a></li>
-              <li><a href="" className="navbar-default__item2">Flying With Us</a></li>
-              <li><a href="" className="navbar-default__item2">Where We Fly</a></li>
-              <li><a href="" className="navbar-default__item2">Fees</a></li>
-              <li><a href="" className="navbar-default__item2">Flight Status</a></li>
-              <li><a href="" className="navbar-default__item2">Flight Alerts</a></li>
-            </ul>
-            <ul className="nav navbar-nav navbar-right">
-              <li><a href="" className="navbar-default__item2 navbar-default__first">Sign In</a></li>
-              <li><a href="" className="navbar-default__item2">Sign Up</a></li>
-            </ul>
+            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span className="icon-bar" />
+              <span className="icon-bar" />
+              <span className="icon-bar" />
+            </button>
+            <div className="collapse navbar-collapse" id="myNavbar">
+              <ul className="nav navbar-nav">
+                <li><a href="" className="navbar-default__item">BOOK</a></li>
+                <li><a href="" className="navbar-default__item">CHECK IN</a></li>
+                <li><a href="" className="navbar-default__item navbar-default__last">MANAGE</a></li>
+              </ul>
+              <ul className="nav navbar-nav">
+                <li><a href="" className="navbar-default__item2">Deals</a></li>
+                <li><a href="" className="navbar-default__item2">Flying With Us</a></li>
+                <li><a href="" className="navbar-default__item2">Where We Fly</a></li>
+                <li><a href="" className="navbar-default__item2">Fees</a></li>
+                <li><a href="" className="navbar-default__item2">Flight Status</a></li>
+                <li><a href="" className="navbar-default__item2">Flight Alerts</a></li>
+              </ul>
+              <ul className="nav navbar-nav navbar-right">
+                <li><a href="" className="navbar-default__item2 navbar-default__first">Sign In</a></li>
+                <li><a href="" className="navbar-default__item2">Sign Up</a></li>
+              </ul>
+            </div>
           </div>
         </nav>
 
